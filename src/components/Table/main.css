@@ -1,0 +1,16 @@
+ul {
+    width: 100%;
+    margin: 20px auto 15px;
+    padding: 0;
+    border-top: 1px solid #e5ded6;
+    text-align: center;
+}
+
+li {
+    line-height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}

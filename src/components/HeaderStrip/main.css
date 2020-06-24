@@ -1,0 +1,27 @@
+.headerStrip {
+    position: relative;
+    left: -1em;
+    padding: 4px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerStrip p {
+    margin: 0;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.green {
+    background-color: #45B6B1;
+}
+
+.blue {
+    background-color: #65C3DF;
+}
+
+.red {
+    background-color: #FF6B6B;
+}
