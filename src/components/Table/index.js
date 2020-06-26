@@ -6,6 +6,7 @@ const Table = () => {
         <ul>
             <li>Head</li>
             <li>item</li>
+            <li>item</li>
         </ul>
     </div>);
 }

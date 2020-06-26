@@ -1,9 +1,16 @@
 import React from "react";
 import "./main.css";
 
-const TextWithSubText = () => {
+const TextWithSubText = props => {
     return (<div>
-        TextWithSubText
+        {
+            props.isInputField &&
+            <input
+                className={`bigTextInput ${props.textColor}`}
+                placeholder={props.bigText}
+            /> || <p className="bigText">{props.bigText}</p>
+        }
+        <p className="smallText">{props.smallText}</p>
     </div>);
 }
 

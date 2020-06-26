@@ -1,30 +1,18 @@
 import React from 'react';
 import {
-  Paper,
-  PaperFold,
-  HeaderStrip,
-  Icon,
-  TextWithSubText,
-  OnOff,
-  Table,
-  Button
-} from "./components/index.js";
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
+import ClockIn from "./timesheet/ClockIn";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Paper
-        title="Blakio"
-        color="red"
-      >
-        <Table />
-        {/* <Button
-          icon="far fa-bookmark"
-          text="Button"
-        /> */}
-      </Paper>
+      <Router>
+        <Route path="/clockin" component={ClockIn} />
+      </Router>
     </div>
   );
 }

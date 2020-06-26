@@ -4,7 +4,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: #DCE3EA;
+    background-color: var(--grey);
     overflow: hidden;
 }
 
@@ -14,6 +14,6 @@
     position: relative;
     top: 0.18em;
     left: 0.18em;
-    background-color: #F5F5F5;
+    background-color: var(--dashBackgroundColor);
     transform: rotate(45deg);
 }

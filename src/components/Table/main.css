@@ -2,7 +2,6 @@ ul {
     width: 100%;
     margin: 20px auto 15px;
     padding: 0;
-    border-top: 1px solid #e5ded6;
     text-align: center;
 }
 
@@ -11,6 +10,7 @@ li {
     font-size: 24px;
     font-weight: bold;
     list-style: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--lineLightGrey);
     padding: 5px 0;
+    color: var(--midGrey);
 }

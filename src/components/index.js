@@ -6,6 +6,7 @@ import TextWithSubText from "./TextWithSubText";
 import OnOff from "./OnOff";
 import Table from "./Table";
 import Button from "./Button";
+import Form from "./Form";
 
 export {
     Paper,
@@ -15,5 +16,6 @@ export {
     TextWithSubText,
     OnOff,
     Table,
-    Button
+    Button,
+    Form
 }
