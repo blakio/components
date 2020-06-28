@@ -3,7 +3,9 @@ import {
   BrowserRouter as Router,
   Route
 } from "react-router-dom";
-import ClockIn from "./timesheet/ClockIn";
+import ClockIn from "./timesheet/ClockIn/index.js";
+import TimeSummary from "./timesheet/TimeSummary/index.js";
+import Loading from "./components/Loading";
 
 import "./App.css";
 
@@ -12,6 +14,8 @@ function App() {
     <div className="App">
       <Router>
         <Route path="/clockin" component={ClockIn} />
+        <Route path="/timesummary" component={TimeSummary} />
+        <Route path="/loading" component={Loading} />
       </Router>
     </div>
   );

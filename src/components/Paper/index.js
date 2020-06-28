@@ -6,15 +6,20 @@ import {
 } from "../index";
 import PaperFold from "../PaperFold";
 
-const Panel = props => {
-    return (<div id="panel">
+const Paper = props => {
+    return (<div className="paper">
         {props.title && <HeaderStrip
             title={props.title}
             color={props.color}
         />}
         {props.children}
         <PaperFold />
+        {props.loading && <div>
+            <div className="loading"></div>
+            <div className="loading"></div>
+            <div className="loading"></div>
+        </div>}
     </div>);
 }
 
-export default Panel;
+export default Paper;

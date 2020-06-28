@@ -1,16 +1,15 @@
-ul {
+table {
+    border-spacing: 0;
     width: 100%;
     margin: 20px auto 15px;
     padding: 0;
     text-align: center;
 }
 
-li {
+th, td {
     line-height: 20px;
     font-size: 24px;
-    font-weight: bold;
-    list-style: none;
     border-bottom: 1px solid var(--lineLightGrey);
-    padding: 5px 0;
+    padding: 0.4em 1em;
     color: var(--midGrey);
 }
