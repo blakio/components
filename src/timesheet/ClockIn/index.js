@@ -1,11 +1,11 @@
 import React from "react";
-import "./ClockIn.css";
+import "./main.css";
 
 import {
     Paper,
     Icon,
     TextWithSubText
-} from "../components";;
+} from "../../components";
 
 const ClockIn = () => {
     return (<div>
